@@ -1,0 +1,6 @@
+Parameter,Pi-Cluster Value,CDAC Value
+Latency (L),81.999 μs,1.503 μs
+CPU Overhead (o),6.678 μs,0.203 μs
+Per-byte overhead (O),0.0026 μs/byte,0.000024 μs/byte
+Gap (g),147.22 μs,0.216 μs
+Per-byte gap (G),0.008 μs/byte,0.0001 μs/byte

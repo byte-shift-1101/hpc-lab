@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "https://simgrid.org/simgrid.dtd">
+<platform version="4.1">
+    <zone id="world" routing="Full">
+        <host id="rdcn25" speed="109Gf" core="48"/>
+        <host id="rdcn26" speed="109Gf" core="48"/>
+        <link id="ib_link" bandwidth="12013.77MBps" latency="1.19us"/>
+        <route src="rdcn25" dst="rdcn26">
+            <link_ctn id="ib_link"/>
+        </route>
+    </zone>
+</platform>
